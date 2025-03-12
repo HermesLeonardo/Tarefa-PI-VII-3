@@ -1,0 +1,36 @@
+<mat-toolbar color="primary"> 
+    Angular
+  </mat-toolbar>
+  
+  <div class="container">
+    <mat-card>
+      <mat-card-title class="title">Cadastro de Clientes</mat-card-title>
+      <mat-card-content>
+        <form>
+          <mat-form-field class="full-width">
+            <mat-label>Nome</mat-label>
+            <input matInput placeholder="Digite o nome">
+          </mat-form-field>
+  
+          <mat-form-field class="full-width">
+            <mat-label>Idade</mat-label>
+            <input matInput type="number" placeholder="Digite a idade">
+          </mat-form-field>
+  
+          <mat-form-field class="full-width">
+            <mat-label>Tipo de Cliente</mat-label>
+            <mat-select>
+              <mat-option value="fisico">Físico</mat-option>
+              <mat-option value="juridico">Jurídico</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </form>
+      </mat-card-content>
+  
+      <mat-card-actions>
+        <button mat-raised-button color="primary">Salvar</button>
+        <button mat-raised-button color="warn">Cancelar</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  
